@@ -1,11 +1,11 @@
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "About us",
+  title: "Home",
 }
 
-export default function aboutUs() {
+export default function Hello() {
   return (
-    <h1>about us!</h1>
+    <h1>Hello NextJs!</h1>
   )
 }
